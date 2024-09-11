@@ -6,7 +6,7 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>io.github.easyretrofit</groupId>
-        <artifactId>easy-retrofit-parent</artifactId>
+        <artifactId>parent</artifactId>
         <version>1.0.0</version>
     </parent>
 
@@ -14,6 +14,14 @@
     <description>easy-retrofit extension loadbalancer for spring cloud</description>
     <artifactId>extension-loadbalancer-spring-cloud-starter</artifactId>
     <version>1.0.0-SNAPSHOT</version>
+
+    <url>https://github.com/easyretrofit/${project.artifactId}</url>
+
+    <scm>
+        <url>https://github.com/easyretrofit/${project.artifactId}</url>
+        <connection>scm:git:git://github.com/easyretrofit/${project.artifactId}.git</connection>
+        <developerConnection>scm:git:ssh://github.com/easyretrofit/${project.artifactId}.git</developerConnection>
+    </scm>
 
     <properties>
         <java.version>8</java.version>
