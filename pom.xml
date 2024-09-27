@@ -7,7 +7,7 @@
     <parent>
         <groupId>io.github.easyretrofit</groupId>
         <artifactId>parent</artifactId>
-        <version>1.0.0</version>
+        <version>1.1.0</version>
     </parent>
 
     <packaging>jar</packaging>
@@ -33,7 +33,7 @@
         <junit.version>4.13.2</junit.version>
         <spring.boot.version>2.0.0.RELEASE</spring.boot.version>
         <retrofit.version>2.11.0</retrofit.version>
-        <easy-retrofit.version>1.0.0</easy-retrofit.version>
+        <easy-retrofit.version>1.1.3</easy-retrofit.version>
         <loadbalancer.version>3.1.7</loadbalancer.version>
         <commons.lang3.version>3.14.0</commons.lang3.version>
         <junit.version>4.13.2</junit.version>
@@ -42,7 +42,7 @@
     <dependencies>
         <dependency>
             <groupId>io.github.easyretrofit</groupId>
-            <artifactId>easy-retrofit-core</artifactId>
+            <artifactId>core</artifactId>
             <version>${easy-retrofit.version}</version>
             <scope>provided</scope>
         </dependency>
